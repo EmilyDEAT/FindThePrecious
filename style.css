@@ -76,11 +76,37 @@ strong {
     text-align: center;
 }
 
+.card-body {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
 .card-title {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+}
+
+.card-dead {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fe661d;
+    font-size: 5vw;
+}
+
+.card-crossed {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 23%;
+    opacity: 0.8;
 }
 
 .card-deck {
@@ -91,6 +117,13 @@ strong {
 .badge {
     z-index: -1;
     font-size: 2vw;
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.orange {
+    color: #fe661d;
 }
 
 .card-img-top:hover+.badge {
