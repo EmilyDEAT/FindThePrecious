@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "aniron";
+    src: url("polices/Aniron-7BaP.ttf")
+}
+
+@font-face {
+    font-family: "partyBusiness";
+    src: url("polices/PartyBusiness-4B0K.ttf")
+}
+
+@font-face {
+    font-family: "tngan";
+    src: url("polices/tngan.ttf")
+}
+
+body {
+    font-size: 2vw;
+    font-family: "partyBusiness";
+}
+
+nav a,
+h2,
+li,
+form {
+    font-family: "aniron";
+}
+
+.deco {
+    font-family: "tngan";
+    font-size: 3vw;
+    color: #fe661d;
+}
+
+.navbar,
+footer {
+    background-color: #fe661d;
+}
+
+.carousel-inner {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+}
+
+.carousel-text p:first-child {
+    font-size: 5vw;
+}
+
+.wanted {
+    background-image: url('Images/bg_light.png');
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fellows {
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+strong {
+    font-size: 2.7vw;
+    font-weight: 500;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+}
+
+.card-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-deck {
+    width: 90%;
+    margin: auto;
+}
+
+.badge {
+    z-index: -1;
+    font-size: 2vw;
+}
+
+.card-img-top:hover+.badge {
+    z-index: 100;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
