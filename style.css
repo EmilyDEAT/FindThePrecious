@@ -196,3 +196,12 @@ li {
 .text-area {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 640px) {
+    .map {
+        display: none;
+    }
+    form {
+        width: 80%;
+    }
+}
