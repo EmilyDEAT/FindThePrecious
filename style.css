@@ -56,7 +56,7 @@ footer {
 }
 
 .wanted {
-    background-image: url('Images/bg_light.png');
+    background-image: url('images/bg_light.png');
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -152,7 +152,7 @@ hr {
 }
 
 .contact-us {
-    background-image: url('Images/bg_dark.png');
+    background-image: url('images/bg_dark.png');
     padding-top: 20px;
     padding-bottom: 20px;
 }
