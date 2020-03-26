@@ -60,7 +60,7 @@
             <span class="deco">ij</span></h2>
         <div class="card-deck">
             <div class="card position-relative">
-                <img src="images/gandalf.png" class="card-img-top" alt="Gandalf">
+                <img src="images/gandalf.png" class="card-img-top not-dead" alt="Gandalf">
                 <span class="badge position-absolute"><span>Reward</span><span class="orange">100</span> golden coins</span>
                 <h5 class="card-title">Gandalf</h5>
                 <div class="card-body">
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="card position-relative">
-                <img src="images/aragorn.png" class="card-img-top" alt="Aragorn">
+                <img src="images/aragorn.png" class="card-img-top not-dead" alt="Aragorn">
                 <span class="badge position-absolute">Reward <span class="orange">800</span> golden coins</span>
                 <h5 class="card-title">Aragorn</h5>
                 <div class="card-body">
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="images/gimli.png" class="card-img-top" alt="Gimli">
+                <img src="images/gimli.png" class="card-img-top dead" alt="Gimli">
                 <h5 class="card-dead">dead</h5>
                 <h5 class="card-title">gimli</h5>
                 <img src="images/minus.png" class="card-crossed">
@@ -90,27 +90,32 @@
     <hr>
 
     <section class="contact-us">
-        <h2><span class="deco">ij</span>Contact us<span class="deco">ij</span></h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="@">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Address">
-            </div>
-            <div class="form-group">
-                <select class="form-control" id="exampleFormControlSelect1">
+        <h2 class="contact-us-title"><span class="deco">ij</span>Contact us<span class="deco">ij</span></h2>
+        <div class="container-contact-us">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="@">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Address">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
                     <option>I have seen one of them</option>
                     <option>Reward</option>
                     <option>Join our army</option>
                     <option>Question</option>
                     </select>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your messageto the Master</textarea>
-            </div>
+                </div>
+                <div class="form-group text-area">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your messageto the Master</textarea>
+                </div>
 
-        </form>
+            </form>
+            <div class="map">
+                <img src="images/map.jpg" class="card-img-top" alt="map">
+            </div>
+        </div>
     </section>
 
     <footer>
