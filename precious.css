@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "aniron";
+  src: url("polices/Aniron-7BaP.ttf")
+}
+
+@font-face {
+  font-family: "partyBusiness";
+  src: url("polices/PartyBusiness-4B0K.ttf")
+}
+
+@font-face {
+  font-family: "tngan";
+  src: url("polices/tngan.ttf")
+}
+
+body {
+  font-size: 2vw;
+  font-family: "partyBusiness";
+}
+
+nav a,
+h2,
+h3,
+li,
+form {
+  font-family: "aniron";
+}
+
+.navbar,
+footer {
+  background-color: #fe661d;
+}
+
+
+.anneaux {
+  background-image: url('images/bg_light.png');
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-precious, .one-ring, .please, .anneau-noir{
+  display: flex;
+  align-items: center;
+}
+
+.please {
+  flex-direction: column;
+}
+
+.anneau-orange {
+  width: 5em;
+  height: 5em;
+  border: #fe661d 0.25em solid;
+  border-radius: 50%;
+  box-shadow: 0.1851851852em 0.1851851852em 2px rgba(195, 64, 1, 0.7), inset 0.1851851852em 0.1851851852em 2px rgba(195, 64, 1, 0.7);
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.anneau-jaune {
+  width: 10em;
+  height: 10em;
+  border: #ffcc00 0.5em solid;
+  border-radius: 50%;
+  box-shadow: 0.3703703704em 0.3703703704em 2px rgba(168, 135, 0, 0.7), inset 0.3703703704em 0.3703703704em 2px rgba(168, 135, 0, 0.7);
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.anneau-noir-1 {
+  width: 0.8em;
+  height: 0.8em;
+  border: #424242 0.04em solid;
+  border-radius: 50%;
+  box-shadow: 0.0296296296em 0.0296296296em 2px rgba(23, 23, 23, 0.7), inset 0.0296296296em 0.0296296296em 2px rgba(23, 23, 23, 0.7);
+  margin-left: -0.2em;
+}
+
+.anneau-noir-2 {
+  width: 1.6em;
+  height: 1.6em;
+  border: #424242 0.08em solid;
+  border-radius: 50%;
+  box-shadow: 0.0592592593em 0.0592592593em 2px rgba(23, 23, 23, 0.7), inset 0.0592592593em 0.0592592593em 2px rgba(23, 23, 23, 0.7);
+  margin-left: -0.4em;
+}
+
+.anneau-noir-3 {
+  width: 2.4em;
+  height: 2.4em;
+  border: #424242 0.12em solid;
+  border-radius: 50%;
+  box-shadow: 0.0888888889em 0.0888888889em 2px rgba(23, 23, 23, 0.7), inset 0.0888888889em 0.0888888889em 2px rgba(23, 23, 23, 0.7);
+  margin-left: -0.6em;
+}
+
+.anneau-noir-4 {
+  width: 3.2em;
+  height: 3.2em;
+  border: #424242 0.16em solid;
+  border-radius: 50%;
+  box-shadow: 0.1185185185em 0.1185185185em 2px rgba(23, 23, 23, 0.7), inset 0.1185185185em 0.1185185185em 2px rgba(23, 23, 23, 0.7);
+  margin-left: -0.8em;
+}
+
+.anneau-noir-5 {
+  width: 4em;
+  height: 4em;
+  border: #424242 0.2em solid;
+  border-radius: 50%;
+  box-shadow: 0.1481481481em 0.1481481481em 2px rgba(23, 23, 23, 0.7), inset 0.1481481481em 0.1481481481em 2px rgba(23, 23, 23, 0.7);
+  margin-left: -1em;
+}
+
+.anneau-noir-6 {
+  width: 4.8em;
+  height: 4.8em;
+  border: #424242 0.24em solid;
+  border-radius: 50%;
+  box-shadow: 0.1777777778em 0.1777777778em 2px rgba(23, 23, 23, 0.7), inset 0.1777777778em 0.1777777778em 2px rgba(23, 23, 23, 0.7);
+  margin-left: -1.2em;
+}
