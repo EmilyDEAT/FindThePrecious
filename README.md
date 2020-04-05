@@ -1,5 +1,5 @@
 # FindThePrecious2
-Site pour répondre à un exercide de la Wild Code School sur l'intégration d'une maquette.
+Site pour répondre à un exercide de la Wild Code School sur l'intégration d'une maquette et l'utilisation de Bootstrap.
 
 # Demo
 Vous pouvez trouver la demo [ici](https://emilydeat.github.io/FindThePrecious2/index.html)
